@@ -630,6 +630,11 @@ img {
 
 /* Mobile Grid */
 @media only screen and (max-width: 767px) {
+  span.title {
+    line-height: 50px;
+    font-size: 25px;
+  }
+
   body.responsive {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
@@ -914,9 +919,8 @@ ul.inline li {
 
 /* Header */
 .title {
-  font-family: "Loose Change Radio";
-  font-size: 32px;
-  padding-top: 16px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .header {
@@ -1050,7 +1054,10 @@ ul.inline li {
   color: #555555;
 }
 
+.font-lcr {
+  font-family: "Loose Change Radio";
+}
+
 footer {
   color: #ebb54b; 
-  font-family: "Loose Change Radio";
 }

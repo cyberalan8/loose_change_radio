@@ -12,6 +12,7 @@ require('partials/_header.php'); ?>
     <div class="tweleve columns centered">
       <div id="bracket">
         <div id="region_1">
+          <div class="region-title-left">80's</div>
           <div class="round1"><div class="match left" id="match1">
               <dl>
               <dt class="band1"><span class="seed">1</span>TV SHOW</dt><dt class="band2"><span class="seed">16</span>TV SHOW</dt>
@@ -97,7 +98,8 @@ require('partials/_header.php'); ?>
           </div>
           </div>
           <div id="region_2">
-          <div class="round1"><div class="match left" id="match1">
+            <div class="region-title-left">00's</div>
+            <div class="round1"><div class="match left" id="match1">
               <dl>
               <dt class="band1"><span class="seed">1</span>TV SHOW</dt><dt class="band2"><span class="seed">16</span>TV SHOW</dt>
           </dl>
@@ -182,44 +184,45 @@ require('partials/_header.php'); ?>
           </div>
           </div>
           <div id="region_3">
-          <div class="round1"><div class="match left" id="match1">
+            <div class="region-title-right">90's</div>
+            <div class="round1"><div class="match right" id="match1">
               <dl>
-              <dt class="band1"><span class="seed">1</span>TV SHOW</dt><dt class="band2"><span class="seed">16</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">1</span></dt><dt class="band2">TV SHOW<span class="seed">16</span></dt>
           </dl>
           </div>
-          <div class="match left" id="match2">
+          <div class="match right" id="match2">
               <dl>
-              <dt class="band1"><span class="seed">8</span>TV SHOW</dt><dt class="band2"><span class="seed">9</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">8</span></dt><dt class="band2">TV SHOW<span class="seed">9</span></dt>
           </dl>
           </div>
           <div class="match left" id="match3">
               <dl>
-              <dt class="band1"><span class="seed">5</span>TV SHOW</dt><dt class="band2"><span class="seed">12</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">5</span></dt><dt class="band2">TV SHOW<span class="seed">12</span></dt>
           </dl>
           </div>
           <div class="match left" id="match4">
               <dl>
-              <dt class="band1"><span class="seed">4</span>TV SHOW</dt><dt class="band2"><span class="seed">7</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">4</span></dt><dt class="band2">TV SHOW<span class="seed">7</span></dt>
           </dl>
           </div>
           <div class="match left" id="match5">
               <dl>
-              <dt class="band1"><span class="seed">6</span>TV SHOW</dt><dt class="band2"><span class="seed">11</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">6</span></dt><dt class="band2">TV SHOW<span class="seed">11</span></dt>
           </dl>
           </div>
           <div class="match left" id="match6">
               <dl>
-              <dt class="band1"><span class="seed">3</span>TV SHOW</dt><dt class="band2"><span class="seed">14</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">3</span></dt><dt class="band2">TV SHOW<span class="seed">14</span></dt>
           </dl>
           </div>
           <div class="match left" id="match7">
               <dl>
-              <dt class="band1"><span class="seed">7</span>TV SHOW</dt><dt class="band2"><span class="seed">10</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">7</span></dt><dt class="band2">TV SHOW<span class="seed">10</span></dt>
           </dl>
           </div>
           <div class="match left" id="match8">
               <dl>
-              <dt class="band1"><span class="seed">2</span>TV SHOW</dt><dt class="band2"><span class="seed">15</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">2</span></dt><dt class="band2">TV SHOW<span class="seed">15</span></dt>
           </dl>
           </div>
 
@@ -267,44 +270,45 @@ require('partials/_header.php'); ?>
           </div>
           </div>
           <div id="region_4">
-          <div class="round1"><div class="match left" id="match1">
+            <div class="region-title-right">10's</div>
+            <div class="round1"><div class="match left" id="match1">
               <dl>
-              <dt class="band1"><span class="seed">1</span>TV SHOW</dt><dt class="band2"><span class="seed">16</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">1</span></dt><dt class="band2">TV SHOW<span class="seed">16</span></dt>
           </dl>
           </div>
           <div class="match left" id="match2">
               <dl>
-              <dt class="band1"><span class="seed">8</span>TV SHOW</dt><dt class="band2"><span class="seed">9</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">8</span></dt><dt class="band2">TV SHOW<span class="seed">9</span></dt>
           </dl>
           </div>
           <div class="match left" id="match3">
               <dl>
-              <dt class="band1"><span class="seed">5</span>TV SHOW</dt><dt class="band2"><span class="seed">12</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">5</span></dt><dt class="band2">TV SHOW<span class="seed">12</span></dt>
           </dl>
           </div>
           <div class="match left" id="match4">
               <dl>
-              <dt class="band1"><span class="seed">4</span>TV SHOW</dt><dt class="band2"><span class="seed">7</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">4</span></dt><dt class="band2">TV SHOW<span class="seed">7</span></dt>
           </dl>
           </div>
           <div class="match left" id="match5">
               <dl>
-              <dt class="band1"><span class="seed">6</span>TV SHOW</dt><dt class="band2"><span class="seed">11</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">6</span></dt><dt class="band2">TV SHOW<span class="seed">11</span></dt>
           </dl>
           </div>
           <div class="match left" id="match6">
               <dl>
-              <dt class="band1"><span class="seed">3</span>TV SHOW</dt><dt class="band2"><span class="seed">14</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">3</span></dt><dt class="band2">TV SHOW<span class="seed">14</span></dt>
           </dl>
           </div>
           <div class="match left" id="match7">
               <dl>
-              <dt class="band1"><span class="seed">7</span>TV SHOW</dt><dt class="band2"><span class="seed">10</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">7</span></dt><dt class="band2">TV SHOW<span class="seed">10</span></dt>
           </dl>
           </div>
           <div class="match left" id="match8">
               <dl>
-              <dt class="band1"><span class="seed">2</span>TV SHOW</dt><dt class="band2"><span class="seed">15</span>TV SHOW</dt>
+              <dt class="band1">TV SHOW<span class="seed">2</span></dt><dt class="band2">TV SHOW<span class="seed">15</span></dt>
           </dl>
           </div>
 

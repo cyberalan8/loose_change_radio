@@ -16,7 +16,16 @@
   background-image: -moz-linear-gradient(right, #fafbfb, #eaebeb);
 }
 
+.region-title-left {
+  font-size: 25px;
+  padding: 0 0 10px 10px;
+}
 
+.region-title-right {
+  font-size: 25px;
+  text-align: right;
+  padding: 0 10px 10px 0;
+}
 
 .match {
 	border: 1px solid black;
@@ -40,7 +49,7 @@
 #region_1 .round2 {
 	position: absolute;
 	left: 120px;
-	top: -40px;
+	top: -10px;
 }
 
 #region_1 .round2 .match, #region_2 .round2 .match, #region_3 .round2 .match, #region_4 .round2 .match {
@@ -57,14 +66,14 @@
 	height: 255px;
 	left: 230px;
 	position: absolute;
-	top: 78px;
+	top: 108px;
 	width: 95px;
 }
 
 #region_1 .round4, #region_2 .round4 {
 	position: absolute;
 	left: 300px;
-	top: 185px;
+	top: 215px;
 }
 
 #region_1 .round4 .match, #region_2 .round4 .match,#region_3 .round4 .match, #region_4 .round4 .match {
@@ -87,12 +96,13 @@
 	position: absolute;
   height: 404px;
 	left: 1068px;
+  text-align: right;
 }
 
 #region_3 .round2 {
 	position: absolute;
 	left: -120px;
-	top: -40px;
+	top: -10px;
 }
 
 #region_3 .round3, #region_4 .round3 {
@@ -101,14 +111,14 @@
 	left: -230px;
 	margin: 43px 0 0 0;
 	position: absolute;
-	top: 35px;
+	top: 65px;
 	width: 25px;
 }
 
 #region_3 .round4, #region_4 .round4 {
 	position: absolute;
 	left: -300px;
-	top: 185px;
+	top: 215px;
 }
 
 #region_3 .match, #region_4 .match {
@@ -118,6 +128,7 @@
 
 #region_4 {
 	position: absolute;
+  text-align: right;
 	height: 404px;
 	left: 1068px;
 	top: 545px;
@@ -132,8 +143,8 @@
 #region_5 {
 	font-size: 10px;
 	position: absolute;
-	left: 400px;
-	top: 424px;
+	left: 380px;
+	top: 460px;
 	width: 425px;
   background-color: #666;
   background: -webkit-gradient(linear, left center, right center, from(#666666), to(#666), color-stop(.5,black));
@@ -273,7 +284,7 @@
 }
 
 #bracket {
-	height: 950px;
+	height: 980px;
   padding-top: 15px;
   margin-bottom: 15px;
 }
@@ -328,4 +339,89 @@
 
 #sponsor_bottom {
 	top: 818px;
+}
+
+/* Mobile Grid */
+@media only screen and (max-width: 320px) {
+  #bracket {
+    height: 1810px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  #region_1 {
+    position: inherit;
+    width: 100%;
+  }
+
+  #region_1 .round2 {
+    left: 130px;
+    top: 0px;
+  }
+
+  #region_1 .round3 {
+    left: 175px;
+    top: 120px;
+    width: 119px;
+  }
+  #region_1 .round4 {
+    left: 195px;
+    top: 225px;
+  }
+
+  #region_2 {
+    position: absolute;
+    top: 830px;
+  }
+
+  #region_2 .round3 {
+    left: 175px;
+    top: 110px;
+    width: 119px;
+  }
+
+  #region_2 .round4 {
+    left: 185px;
+  }
+
+  #region_3 {
+    left: 195px;
+    top: 430px;
+    text-align: right;
+  }
+
+  #region_3 .round3, #region_4 .round3 {
+    left: -175px;
+    width: 1px;
+  }
+
+  #region_3 .round4, #region_4 .round4 {
+    left: -190px;
+  }
+
+  #region_4 {
+    left: 195px;
+    top: 1254px;
+  }
+
+  #region_5 {
+    left: 0px;
+    top: 1700px;
+    width: 320px;
+  }
+
+  #match61 {
+    left: 0px;
+    width: 100px;
+  }
+
+  #match62 {
+    width: 100px;
+    right: 0px;
+  }
+
+  #match63 {
+    left: 0px;
+    width: 118px;
+  }
 }
